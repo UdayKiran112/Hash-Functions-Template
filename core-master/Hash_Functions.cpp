@@ -151,8 +151,8 @@ void hash_3(int hlen, octet *input, octet *output, octet *group_1, octet *group_
     free(temp4.val);
 }
 
-// Hash function-5:------>h5:{0,1}* x {0,1}* x G x {0,1}* -------->Zq*
-void hash_5(int hlen, octet *input_1, octet *input_2, octet *group, octet *input_3, octet *output)
+// Hash function-4:------>h4:{0,1}* x {0,1}* x G x {0,1}* -------->Zq*
+void hash_4(int hlen, octet *input_1, octet *input_2, octet *group, octet *input_3, octet *output)
 {
     char hash[128];
     octet H = {0, sizeof(hash), hash};
